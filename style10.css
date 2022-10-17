@@ -1,0 +1,218 @@
+
+body{
+  margin:0;  
+  padding:0;
+
+}
+.outer{
+   text-align: center;
+}
+.content{
+	position: sticky;
+   text-align:center;
+   padding:10px;
+   background-color: lightgrey;
+}	
+.topofpage{
+	    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+    z-index: 100;
+    opacity: .9;
+    background-color: cornflowerblue;
+}
+
+.nav{
+  position: sticky;
+	font-family: sans-serif;
+   text-align:left;
+	flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+	
+}
+.navbar{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 50 px;
+	background-color: blue;
+	z-index: 100;
+	opacity: .9;
+	display: flex;
+	 flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+	padding-left: 20px;
+
+}
+.logo{
+  max-width: 100px;
+  text-align:left;
+}
+.menu{
+	max-width: 50px;
+display: none;
+}
+
+.logo_img{
+  margin-top: 10px;
+  margin-left:10px;
+  width:60%;
+
+}
+.search{
+  align-content: flex-end;
+    margin-left: auto;
+    max-width: 50px
+
+}
+.searchimg{
+
+    margin-left: auto;
+	margin-top: 10px;
+  margin-right:10px;
+  width:40%; 
+}
+.menu_img{
+
+    margin-left: auto;
+	margin-top: 10px;
+  margin-right:10px;
+  width:40%; 
+}
+
+a{
+  color:black;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+a:hover {
+  color:red;  
+ }
+  a:active {
+  color:#CCC;
+}
+
+.navhere{
+   margin-left:10px;
+   margin-top:10px;
+   text-align: right;
+color: red;
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: white;
+  max-width:1200px;
+  width:100%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+	opacity: .80;
+	}
+.text{
+	color: black;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 24px;
+	}
+
+.tile1{
+	background-image: url("img/coding1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	}
+	.tile2{
+	background-image: url("img/coding2.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+		height: 600px;
+	}
+.tile3{
+	background-image: url("img/coding3.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	}
+.tile4{
+	background-image: url("img/coding4.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	}
+.tile5{
+	background-image: url("img/coding5.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	}
+.tile6{
+	background-image: url("img/coding6.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	}
+@media screen and (max-width: 768px){
+	.menu{
+		display: inline-block;
+		}
+	.nav{
+		display: none;
+		}
+	.page{
+		width: 480px;
+		}
+	#menu{
+	max-width: 40px;
+	display: inline-block;
+	}
+
+#menu{
+	max-width: 40px;
+	display: none;
+	}
+#menu img{
+	width: 40px;
+	cursor: pointer;
+	}
+
+#menuoverlay{
+	position: absolute;
+	top: 0px;
+	background-color: cadetblue;
+	width: 100%;
+	height: 98vh;
+	display: none;
+	text-align: left;
+	display: none;
+	}
+.innermenu{
+	margin-top: 50px;
+	}
+.innermenu div{
+	padding: 50px;
+	}
+#close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 24px;
+	}
+
