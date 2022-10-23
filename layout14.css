@@ -1,0 +1,97 @@
+body{
+  color:black;
+
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1000px;
+  width: 100%;
+	margin: auto;
+	padding: 10px;
+	position: center;
+
+}
+
+.topnav{
+  background-color: #f5eaea;
+  height:100px;
+  text-align: left;
+
+}
+
+.layout{
+	width:100%;
+	height: 100px;
+	background-color: #f5eaea;
+
+}
+
+
+/* HERO IMAGE */
+
+.hero_content{
+	font-size: 24px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+}
+.hero_text_headline{
+
+	font-weight: 700;
+	color: blue;
+}
+.hero_text_content{
+
+	font-weight: 300;
+	color: lightskyblue;
+}
+
+.hero_content img{
+	max-width: 100%;
+}
+
+
+/* SIDEBAR COMPONENT */
+
+.side_bar{
+  height:100%;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+ 
+}
+
+.section_headline{
+   color: mediumblue;
+   font-weight: 700;
+	font-style: italic;
+}
+.section_text_content{
+   color: lightskyblue;
+   font-weight: 300;
+		
+}
+
+.side_bar img{
+	float: right;
+	max-width: 30%;
+	padding-left: 20px;
+}
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+   
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+   
+}
